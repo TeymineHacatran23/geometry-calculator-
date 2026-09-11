@@ -1,6 +1,10 @@
 python
-print("Калькулятор геометрии") 
-    print("В разработке...") 
+from circle import Circle 
+from rectangle import Rectangle 
  
-if __name__ == "__main__":     
-main() 
+def main(): 
+    print("Калькулятор геометрии запущен")     print("Версия 1.0") 
+ 
+if __name__ == "__main__":     main() 
+
+
